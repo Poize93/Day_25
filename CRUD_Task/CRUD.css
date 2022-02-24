@@ -1,0 +1,51 @@
+.user-pic{
+    height: 100px;
+    width:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-container{
+    background-image:  linear-gradient(to right,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    padding:1rem;
+    border-radius: 20px;
+    max-width:300px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.user-name{
+    color: white;
+}
+
+.user-join-date{
+    color:grey;
+    margin-bottom:0px;
+    font: size 12px;
+
+}
+
+.user-list{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:center;
+}
+.user-edit-container{
+    display:none;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.user-add-container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap:10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
