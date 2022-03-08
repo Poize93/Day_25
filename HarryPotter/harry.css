@@ -1,0 +1,94 @@
+.display{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+   
+}
+
+.pagination{
+    background-color: black;
+    
+}
+
+
+
+.instruction{
+    background-color: black;
+    color:white;
+    font-size:2rem;
+    margin: 0px;
+    
+}
+.card{
+    background-color: white;
+    display:flex;
+    width:500px;
+    height:300px;
+    margin:30px;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+
+.evt_dtls{
+ 
+ color:black;
+ font-weight: bold;
+}
+
+
+.evt_dtls:hover{
+    transform: scale(1.5);
+    letter-spacing: 3px;
+    color:orangered
+}
+
+.event{
+    max-width:250px;
+    
+    
+}
+
+.event:hover{
+    transform: scale(0.8);
+    margin-left:10px;
+}
+
+.img_event{
+    height:300px;
+    width:250px;
+
+}
+
+.img_event:hover{
+    transform: scale(1.4);
+    border-radius:100%
+}
+
+.title{
+    color:orangered
+}
+
+
+
+
+
+
+
+
+/* ///////////// */
+
+@media(max-width:525px){
+    .card{
+        display:flex;
+        flex-direction:column-reverse;
+        height:600px;
+        width:300px;
+    }
+
+    .img_event{
+        margin:20px;
+    }
+}
