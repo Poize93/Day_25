@@ -1,0 +1,127 @@
+.display{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width:900px
+    
+}
+
+.title{
+    color:red;
+    font-weight: bold;
+}
+
+.img_event{
+    width:500px;
+    height:350px;
+    /* margin-right: 0px; */
+    border-radius:100%
+} 
+
+
+.card{
+    background-color: white;
+    margin:50px;
+    width:800px;
+    display:flex;
+    flex-direction:row ;
+    height: 350px;
+    overflow:hidden;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+}
+
+.card:hover{
+    transform:scale(1.1);
+    background-color:grey
+}
+
+.evt_dtls{
+    margin: 20px;
+}
+
+.event{
+    width:300px
+}
+
+.btn{
+    margin-top:20px;
+    /* position:relative; */
+   
+    
+}
+
+.pagination{
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+     top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ////////// */
+
+
+
+@media(max-width:600px){
+    .img_event{
+        width: 300px;
+        height: 250px;
+        margin-right: 0px;
+        border-radius:50%;
+    } 
+
+    .card:hover{
+        transform:scale(1.1);
+        background-color:grey
+    }
+    
+    .event{
+        max-width:500px;
+        height:500px;
+        
+    }
+    
+    
+    .card{
+        display:flex;
+        flex-direction: column-reverse;
+        height:750px;
+        width:300px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-left:70px;
+        
+    }
+
+    .display{
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width:350px
+        
+    }
+
+
+    .pagination{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+         top:10px;
+    }
+}
+
