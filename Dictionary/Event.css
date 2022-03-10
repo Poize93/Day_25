@@ -1,0 +1,61 @@
+.title{
+    color:blue;
+    font-weight: bold;
+}
+
+.mean{
+margin:5px;
+margin-left:20px;
+}
+
+.mean:hover{
+    transform:scale(1.1);
+    margin-left:60px;
+}
+
+.phonetic{
+    color:green;
+    font-size: 1.5rem;
+}
+
+.word{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    color:red;
+}
+
+.speech{
+    font-size:1.4rem;
+    text-transform: uppercase;
+  
+}
+
+.meaning{
+font-size:1.5rem;
+
+}
+
+.speech{
+    margin-bottom:0px;
+}
+
+
+.speech_mean{
+    margin-top:0px
+}
+
+.search_box{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: aquamarine;
+    height:100px;
+}
+
+.txt{
+    background-color: pink;
+}
